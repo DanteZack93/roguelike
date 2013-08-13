@@ -7,12 +7,12 @@ class Player
     public:
         Player();
     private:
-        char symbol = '@';
-        int hp = 100;
-        int mp = 10;
-        int lv = 1;
-        int positionX = 0;
-        int positionY = 0;
+        char symbol;
+        int hp;
+        int mp;
+        int lv;
+        int positionX;
+        int positionY;
 };
 
 #endif // PLAYER_H
